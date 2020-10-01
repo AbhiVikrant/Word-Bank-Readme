@@ -13,7 +13,7 @@
 ### Running
 
 ## Contribution Guidelines
-<hr>
+
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
 
 ### Steps required for contributing in open source projects:
@@ -29,7 +29,7 @@ When contributing to this repository, please first discuss the change you wish t
    ```
 4. Open directory, you wish to open.
    ```bash
-   Start .
+   start .
    ```
 5. Changes to be done and save it.
 6. Create a new branch before adding the file.
@@ -52,7 +52,6 @@ When contributing to this repository, please first discuss the change you wish t
     ```bash
     git commit -m "<Type exactly what did you change>"
      ```
-
 11. Push the file to the remote.
     ```bash
     git push -u origin <Your branch name>
@@ -65,7 +64,7 @@ When contributing to this repository, please first discuss the change you wish t
     * [new branch]      5-contribution-update -> 5-contribution-update
      ```
 
-#### After making the push to origin, you need to be done pull request.
+#### After making the push to origin, you need to create the pull request.
 
 ### Steps require for doing pull request:
 1. Go to https://github.com/<your GitHub name>/word-bank
@@ -108,25 +107,25 @@ When contributing to this repository, please first discuss the change you wish t
    ```
 ### Steps require for working with remote and update the local:
 1. Use command as:
-    ```bash
+   ```bash
    git checkout master
    ```
 2. Use git pull.
-     ```bash
+   ```bash
    git pull
    Already up to date.
    ```
 3. Use command for adding remote upstream.
-    ```bash
+   ```bash
    git remote add upstream https://<UserName@>github.com/praveenscience/word-bank.git
    ```
 4. Use command as
- ```bash
+   ```bash
    git remote -v
    Already up to date.
    ```
 5. Use command to update changes according to origin or master.
- ```bash
+   ```bash
    git pull upstream master
    Already up to date.
    ```
